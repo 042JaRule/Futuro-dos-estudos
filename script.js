@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "pergunta deve ser escrita aqui",
+        enunciado: "1) Qual área você vai estudar? ",
         alternativas: [
             {
-                texto: "alternativa letra A deve ser escrita aqui",
-                afirmacao: "Afirmação gerada se a pessoa escolher a letra A deve estar aqui "
+                texto: "Artes e criatividade ",
+                afirmacao: "Você escolheu estudar artes,explorando a criatividade, design, música e putras formas de expressão. "
             },
             {
-                texto: "alternativa letra B deve ser escrita aqui",
-                afirmacao: "Afirmação gerada se a pessoa escolher a letra B deve estar aqui "
+                texto: "Ciências e pesquisas ",
+                afirmacao: "Você decidiu estudar ciências, focando em pesquisas e descobertas que ajudam a entender melhor o mundo. "
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "2) Onde fica sua faculdade?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Em um campus moderno dentro de um parque tecnológico. ",
+                afirmacao: "Sua faculdade está localizada dentro de um parque tecnológico, cercada por empresas de inovação e espaços colaborativos. "
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Em um centro de pesquisas com laboratório. ",
+                afirmacao: "Sua faculdade funciona com um centro de pesquisas, com acesso a laboratórios de ponta. "
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "3) Como você estuda? ",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "No modelo híbrido, com aulas presencias e online. ",
+                afirmacao: "Você estuda no modelo híbrido, alternado entre aulas online e atividades práticas presenciais. "
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "100% presenciais, em laboratórios e ambientes práticos. ",
+                afirmacao: "Sua rotina é totalmente presencial, com aulas prática, atendimentos reais e treinamentos intensivos. "
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "4) Como são as avaliações? ",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Projetos em grupo conectados com empresas reais. ",
+                afirmacao: "Suas avaliações são projetos em grupo, muitas vezes desenvolvidos em parceria com empresas que analisam as soluções. "
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Casos práticos simulando situações reais da profissão. ",
+                afirmacao: "Você é avaliado por meio de casos práticos que simulam situações reais, exigindo aplicação imediata do conhecimento. "
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "5) Qual o seu objetivo depois da graduação? ",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Trabalhar remoto ou em qualquer lugar do mundo. ",
+                afirmacao: "Depois de formado, seu objetivo é trabalhar de forma remota, atendendo empresas ou clientes de qualquer lugar do mundo. "
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Atuar presencialmente e abrir seu próprio negócio ou projeto. ",
+                afirmacao: "Após se formar, você quer atuar presencialmente e abrir seu próprio negócio ou projeto, oferecendo serviços especializados. "
             }
         ]
     },
